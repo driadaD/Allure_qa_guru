@@ -11,7 +11,7 @@ jobs:
       #выкачиваем репозиторий
       - uses: actions/checkout@v3
       #настраиваем java
-      - uses: actions/setupe-java@v3
+      - uses: actions/setup-java@v3
         with:
           distibutions: 'zulu'
           java-version: '8'
